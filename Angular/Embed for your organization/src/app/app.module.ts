@@ -38,9 +38,9 @@ const isIE = window.navigator.userAgent.indexOf('MSIE ') > -1 || window.navigato
     PowerBIEmbedModule,
     MsalModule.forRoot(new PublicClientApplication({
       auth: {
-        clientId: 'ac2a0303-83c2-4698-a80f-270cd72c276c',
-        authority: 'https://login.microsoftonline.com/7df1a654-9872-4775-b3e2-973c27aee9be',
-        //redirectUri: 'http://localhost:4200',
+clientId: 'ebc32ed8-3848-40cb-aa92-cd43b1b5054c',
+authority: 'https://login.microsoftonline.com/e4e1abd9-eac7-4a71-ab52-da5c998aa7ba',
+//redirectUri: 'http://localhost:4200',
       },
       cache: {
         cacheLocation: 'localStorage',
